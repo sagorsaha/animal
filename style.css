@@ -1,0 +1,380 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*font-family: 'Poppins', sans-serif;*/
+h1,h2,h3,h4,h5,h6, p,a,input,button,span{
+	font-family: 'Poppins', sans-serif;
+}
+.navber{
+	width: 100%;
+	background: #daac00;
+	position: absolute;
+	
+}
+.nav-item{
+	margin: 0px 50px;
+}
+.navber form{
+	width: 20%;
+	box-shadow: none;
+
+}
+.input-group-text{
+	background: #00bec9;
+	color:white;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .5rem .8rem !important;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white !important;
+    background-color:yellow !important;
+    background-clip: padding-box;
+    border: 1px solid yellow !important;
+    box-shadow: none;
+
+    
+		}
+
+.banner{
+width: 100%;
+background: #fcc302;
+padding: 120px 0px;
+}
+
+
+.banner h1{
+	font-size: 64px;
+	font-weight: 600;
+	color: white;
+	margin-top: 64px;
+}
+.banner p{
+	font-size: 29.27px;
+	font-weight: 400;
+	color: #fef0d0;
+	margin: 32px 0px;
+}
+.banner .btn-primary {
+    color: #FCE4EC;
+    background-color: #0d6efd !important;
+    border-color: #0d6efd !important;
+}
+.banner .btn-light {
+    color: #000;
+    background-color: #f8f9fa !important;
+    border-color: #f8f9fa !important;
+}
+
+.service-1{
+	width: 100%;
+	padding: 80px 0px;
+	background: #ffffff;
+}
+.service-1 h1{
+	margin-top: 50px;
+	font-weight: 600;
+	font-size: 50px;
+	color: #313243;
+}
+.service-1 p{
+	font-weight: 400;
+	font-size: 30px;
+	color: #313243;
+	margin-right: :10px;
+}
+ .service-1 .service-video{
+	position: relative;
+	z-index: 1;
+}
+ .service-1 .shadow{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	bottom: 0px;
+	background: rgba(252 ,195,2,0.6);
+}
+.service-1 .box{
+	height: 200px;
+	width: 200px;
+	position:absolute;
+	left:-30px;
+	bottom: -30px;
+	background:yellow;
+	z-index: -1;
+	
+}
+.service-1 .vedio-icon i{
+	height: 70px;
+	width:70px;
+	background-color: black;
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	text-align: center;
+	line-height: 70px;
+	border-radius: 100%;
+	color: yellow;
+	background: white;
+}
+.title{
+	width: 100%;
+	background: #fcc302;
+	text-align: center;
+	padding: 80px 0px;
+}
+.m-1 h1{
+font-weight: 700;
+font-size: 75px;
+color: #ffffff;
+}
+.m-1 p{
+	font-weight: 400;
+	font-size: 34px;
+	color: #ffffff;
+	width: 70%;
+	margin-left: 100px;
+
+}
+.m-2 h1{
+font-weight: 600;
+font-size: 38px;
+color: #ffffff;
+}
+.m-2 p{
+	font-weight: 400;
+	font-size: 25px;
+	color: #ffffff;	
+
+}
+.service-2{
+	width: 100%;
+	padding: 80px 0px;
+	background: #ffffff;
+	text-align: right;
+}
+.service-2 h1{
+	margin-top: 50px;
+	font-weight: 600;
+	font-size: 50px;
+	color: #313243;
+}
+.service-2 p{
+	font-weight: 400;
+	font-size: 30px;
+	color: #313243;
+	margin-right: :10px;
+}
+ .service-2 .service-video{
+	position: relative;
+	z-index: 1;
+}
+ .service-2 .shadow{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	bottom: 0px;
+	background: rgba(252 ,195,2,0.6);
+}
+.service-2 .box{
+	height: 200px;
+	width: 200px;
+	position:absolute;
+	right:-30px;
+	bottom: -30px;
+	background:yellow;
+	z-index: -1;
+	
+}
+.service-2 .vedio-icon i{
+	height: 70px;
+	width:70px;
+	background-color: black;
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	text-align: center;
+	line-height: 70px;
+	border-radius: 100%;
+	color: yellow;
+	background: white;
+}
+.price{
+	display: flex;
+	justify-content: space-around;
+}
+.price h1{
+font-weight: 700;
+font-size: 75px;
+color: #ffffff;
+margin-top: 15px;
+}
+.price del{
+font-weight: 700;
+font-size: 75px;
+color: #ffffff;
+}
+.m-3 button{
+background: #00bec9;
+border: 1px solid #00bec9;
+padding: 3px 18px;
+border-radius: 50px;
+}
+.team{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+}
+.team h1{
+	color: #313243;
+	font-weight: 700;
+	font-size: 75px;
+	margin-right: 70px;
+}
+.team p{
+	color: #7a7a83;
+	font-weight: 400;
+	font-size: 34px;
+	width: 70%;
+	margin-left: 100px;
+}
+.team-icon li{
+list-style: none;
+display: inline-block;
+background: #daac00;
+border: 2px solid #daac00;
+border-radius: 100%;
+text-align: center;
+padding: 8px;
+margin: 0px 10px;
+}
+.team-icon li a{
+	text-decoration: none;
+	
+	text-align: center;
+	color: white;
+	text-align:center;
+}
+.team h3{
+	color: #313243;
+	font-weight: 700;
+	font-size: 30px;
+}
+.team h4{
+	color: #686975;
+	font-weight: 400;
+	font-size: 25px;
+}
+.histroy{
+	width: 100%;
+	background-image: url(img11.png); 
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align:center;
+    position: relative;
+	padding: 80px 0px;
+
+}
+.histroy a i{
+	color: white;
+	font-size: 38px;
+}
+.overlay{
+	position:absolute;
+	top: 0px;
+	right: 0px;
+	left:0px;
+	bottom: 0px;
+	background: rgba(252 ,195,2,0.6); 
+}
+.histroy h2{
+	font-weight: 600;
+	font-size: 42px;
+	color: #ffffff;
+}
+.histroy h3{
+	font-weight: 700;
+	font-size: 38px;
+	color: #ffffff;
+}
+.post{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+	background: #ffffff;
+}
+.post h1{
+	color: #313243;
+	font-weight: 700;
+	font-size: 75px;
+}
+.post p{
+	font-weight: 400;
+	font-size:34px;
+	color: #b0b1b5;
+}
+.post h5{
+	color:  #313243; 
+	font-weight:600;
+	font-size: 25px;
+
+}
+.post h6{
+	color:#00bec9; 
+	font-weight:400;
+	font-size:17px;
+}
+.para p{
+color:#b0b1b5;
+font-weight: 400;
+font-size: 17px;
+width: 100%; 
+}
+.footer{
+	width: 100%;
+	padding: 80px 0px;
+	background: black;
+}
+.footer ul li{
+	list-style: none;
+	color: white;
+}
+.text{
+	text-align: right;
+}
+.text form{
+	width: 60%;
+     text-align: right;
+     margin-left: 230px;
+     padding: 20px 10px;
+}
+.text ul li a{
+	color: black;
+text-align: right;
+
+
+}
+.text ul li{
+	margin-left: 20px;
+	background: white;
+	margin-top: 30px;
+	border: none;
+}
+.footer h1{
+font-weight: 600;
+font-size: 38px;
+color: white;
+}
+.footer p{
+font-weight: 400;
+font-size: 14px;
+color: white;
+}
